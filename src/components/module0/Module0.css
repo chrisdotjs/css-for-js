@@ -1,5 +1,5 @@
 /* css: html css, no js needed 
-css built-in state */
+css built-in state || position */
 
 /* anatomy of a style rule */
 
@@ -79,4 +79,18 @@ p:last-child {
 li:first-child {
     color: red;
 }
+
+/* not working */
+p:first-child {
+    color: red;
+}
+
+/* :first-of-type :last-of-type pseudo-class 
+select the first paragraph within a container, regardless of whether or not it's the first child */
+p:first-of-type {
+    color: red;
+}
+
+/* pseudo-elements */
+
 
