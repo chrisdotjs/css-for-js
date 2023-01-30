@@ -12,7 +12,7 @@ is a collection of declarations
 
 .error-text a selector
 error-text a class
-h1 a p a tag
+h1 a p section tag
 */
 .error-text {
     /* 
@@ -21,6 +21,10 @@ h1 a p a tag
     red: a value
     */
     color: blue;
+}
+
+h1 {
+    font-size: x-large;
 }
 
 /* media queries */
@@ -59,10 +63,20 @@ h1 a p a tag
 } */
 
 /* pseudo-classes functional pseudo-classes */
+
 /* :hover a pseudo-class with built-in state management, a state
 alternative to onMouseEnter/onMouseLeave js events which requires useState 
 :focus :checked pseudo-class with built-in state, a state */
 .button:hover {
     color: blue;
+}
+
+/* :last-child :first-child pseudo-class, add conditional logic */
+p:last-child {
+    margin-bottom: 0px;
+}
+
+li:first-child {
+    color: red;
 }
 

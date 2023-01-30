@@ -3,8 +3,8 @@ import Module0 from "./components/module0/Module0";
 function App() {
   return (
     <div>
-      <h2>CSS for JS</h2>
-      <h3>* React SEO</h3>
+      <h1>CSS for Javascript</h1>
+      <p>React SEO</p>
       <Module0 />
     </div>
   );
