@@ -13,7 +13,17 @@ function Module0() {
         Meanwhile, you'll only see me on small ones.
     </div>
     <button className="button">Hover over me!</button>
+    <div>
+        <label>
+            Postal Code: <span></span>
+            <input type="text" placeholder="A1A 1A1" />
+        </label>
+        <br />
+        <p>This paragraph has little arrows!</p>
+    </div>
     </>
 }
 
 export default Module0
+
+

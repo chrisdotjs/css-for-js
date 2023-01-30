@@ -71,6 +71,7 @@ alternative to onMouseEnter/onMouseLeave js events which requires useState
     color: blue;
 }
 
+
 /* :last-child :first-child pseudo-class, add conditional logic */
 p:last-child {
     margin-bottom: 0px;
@@ -88,9 +89,41 @@ p:first-child {
 /* :first-of-type :last-of-type pseudo-class 
 select the first paragraph within a container, regardless of whether or not it's the first child */
 p:first-of-type {
+    color: black;
+}
+
+/* pseudo-elements 
+::placeholder ::before ::after */
+
+label {
     color: red;
 }
 
-/* pseudo-elements */
+input::placeholder {
+    color: goldenrod;
+}
+
+p::before {
+    content: '→ ';
+    color: deeppink;
+}
+  
+p::after {
+    content: ' ←';
+    color: deeppink;
+}
+
+/* if the effect is decorative it's fine to use ::before and ::after with an empty content string */
+/* p::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: peachpuff;
+    margin: 8px;
+} */
+
+/* combinators */
 
 
