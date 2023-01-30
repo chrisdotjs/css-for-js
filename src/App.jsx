@@ -1,9 +1,9 @@
-import './App.css';
+import Module0 from "./components/module0/Module0";
 
 function App() {
   return (
     <div>
-      <h4>Hello ;)</h4>
+      <Module0 />
     </div>
   );
 }

@@ -1,0 +1,68 @@
+/* css: html css, no js needed 
+css built-in state */
+
+/* anatomy of a style rule */
+
+/* a stylesheet
+is a collection of rules/styles
+
+a css rule
+=== a style
+is a collection of declarations
+
+.error-text a selector
+error-text a class
+h1 a p a tag
+*/
+.error-text {
+    /* 
+    color: red; a declaration
+    color: a property
+    red: a value
+    */
+    color: blue;
+}
+
+/* media queries */
+
+/* add styles on small screen */
+@media (max-width: 300px) {
+    .small-only {
+        color: red;
+    }
+}
+
+/* hiding content */
+/* navigation desktop links mobile ham menu */
+.large-screens {
+    display: none;
+}
+
+/* add styles on large screen */
+@media (min-width: 300px) {
+    .large-screens {
+        display: block;
+    }
+    .small-screens {
+        display: none;
+    }
+}
+
+/* .button {
+    button:hover {
+        color: blue;
+    }
+} */
+
+/* .button {
+    color: brown;
+} */
+
+/* pseudo-classes functional pseudo-classes */
+/* :hover a pseudo-class with built-in state management, a state
+alternative to onMouseEnter/onMouseLeave js events which requires useState 
+:focus :checked pseudo-class with built-in state, a state */
+.button:hover {
+    color: blue;
+}
+
